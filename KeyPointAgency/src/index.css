@@ -10,7 +10,7 @@
     --text-medium: #6c757d;       /* Gris medio para descripciones */
     --text-light: #f8f9fa;        /* Blanco roto para fondos oscuros */
     --background-light: #ffffff;  /* Blanco para fondos */
-    --background-grey: #f8f9fa;   /* Gris muy claro para secciones */
+    --background-grey: #8e9297;   /* Gris muy claro para secciones */
     --border-color: #dee2e6;      /* Color de borde general */
     --shadow-light: rgba(0, 0, 0, 0.08); /* Sombra suave */
 }
@@ -91,9 +91,7 @@ button {
 }
 
 .main-content {
-    flex-grow: 1; /* Permite que el contenido ocupe el espacio disponible */
     width: 100%;
-    max-width: 1200px; /* Ancho máximo para el contenido de la página */
     margin: 0 auto;
     padding: 20px; /* Padding general para el contenido */
 }

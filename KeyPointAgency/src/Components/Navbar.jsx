@@ -1,4 +1,3 @@
-// src/components/Navbar/Navbar.js
 import React from 'react';
 import '../Styles/Navbar.css';
 
@@ -6,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="/">InmoApp</a> {/* Reemplaza con tu logo */}
+        <a href="/">KeyPointAgency</a> 
       </div>
       <ul className="navbar-links">
         <li><a href="#inicio">Inicio</a></li>

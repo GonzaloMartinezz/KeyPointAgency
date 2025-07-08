@@ -1,7 +1,7 @@
-/* src/components/Navbar/Navbar.css */
+
 .navbar {
-    background-color: var(--background-light);
-    padding: 15px 40px;
+    background-color: var(--background-grey);
+    padding: 35px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,14 +13,14 @@
 
 .navbar-logo a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8em;
+    font-size: 2.5em;
     font-weight: 700;
     color: var(--primary-color);
 }
 
 .navbar-links {
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .navbar-links a {
@@ -28,6 +28,8 @@
     color: var(--text-dark);
     position: relative;
     padding: 5px 0;
+    transition: color 0.3s ease;
+    font-size: 1.3em;
 }
 
 .navbar-links a:hover {
@@ -51,7 +53,7 @@
 
 .navbar-actions {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 /* Responsive Navbar */

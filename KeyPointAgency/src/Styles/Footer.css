@@ -1,8 +1,7 @@
-/* src/components/Footer/Footer.css */
 .footer {
     background-color: var(--text-dark); /* Fondo oscuro para el footer */
     color: var(--text-light);
-    padding: 40px 20px;
+    padding: 40px 50px;
     margin-top: auto; /* Para que se mantenga en la parte inferior de la página */
 }
 
@@ -10,7 +9,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 80px;
     max-width: 1200px;
     margin: 0 auto 30px auto;
     text-align: left;
@@ -18,7 +17,7 @@
 
 .footer-column {
     flex: 1;
-    min-width: 250px;
+    min-width: 300px;
     max-width: 350px;
 }
 

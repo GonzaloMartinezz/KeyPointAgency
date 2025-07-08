@@ -7,10 +7,11 @@
 
 .featured-listings-section h2 {
     margin-bottom: 10px;
+     font-size: 2.5em;
 }
 
 .section-description {
-    font-size: 1.1em;
+    font-size: 1.8em;
     color: var(--text-medium);
     margin-bottom: 40px;
 }

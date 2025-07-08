@@ -7,7 +7,7 @@ import FeaturedListings from './Components/FeaturedListings';
 import AboutUs from './Components/AboutUs';
 import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
-import './Styles/App.css'; // Estilos generales si los necesitas (puedes dejarlos simples)
+import './App.css'; // Estilos generales si los necesitas (puedes dejarlos simples)
 
 function App() {
   return (

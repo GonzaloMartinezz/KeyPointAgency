@@ -1,6 +1,5 @@
-// src/components/FeaturedListings/ListingCard.js
 import React from 'react';
-import './FeaturedListings.css'; // Mismo CSS para la tarjeta
+import './FeaturedListings.css'; 
 
 const ListingCard = ({ image, title, location, price, type }) => {
   return (
@@ -27,7 +26,7 @@ const FeaturedListings = () => {
   const listings = [
     {
       id: 1,
-      image: 'https://source.unsplash.com/random/800x600/?house,modern',
+      image: '',
       title: 'Casa Familiar con Jardín',
       location: 'Palermo, Buenos Aires',
       price: '$350.000',
@@ -35,7 +34,7 @@ const FeaturedListings = () => {
     },
     {
       id: 2,
-      image: 'https://source.unsplash.com/random/800x600/?apartment,city',
+      image: '',
       title: 'Departamento Céntrico con Balcón',
       location: 'Recoleta, Buenos Aires',
       price: '$1.200/mes',
@@ -43,7 +42,7 @@ const FeaturedListings = () => {
     },
     {
       id: 3,
-      image: 'https://source.unsplash.com/random/800x600/?house,luxury',
+      image: '',
       title: 'Villa de Lujo con Piscina',
       location: 'Pilar, Buenos Aires',
       price: '$850.000',
@@ -51,7 +50,39 @@ const FeaturedListings = () => {
     },
     {
       id: 4,
-      image: 'https://source.unsplash.com/random/800x600/?apartment,cozy',
+      image: '../Images/KP04.jpg',
+      title: 'Loft Moderno en Barrio Norte',
+      location: 'Barrio Norte, Buenos Aires',
+      price: '$950/mes',
+      type: 'Alquiler'
+    },
+     {
+      id: 5,
+      image: '../Images/KP04.jpg',
+      title: 'Loft Moderno en Barrio Norte',
+      location: 'Barrio Norte, Buenos Aires',
+      price: '$950/mes',
+      type: 'Alquiler'
+    },
+     {
+      id: 6,
+      image: '',
+      title: 'Loft Moderno en Barrio Norte',
+      location: 'Barrio Norte, Buenos Aires',
+      price: '$950/mes',
+      type: 'Alquiler'
+    },
+     {
+      id: 7,
+      image: '',
+      title: 'Loft Moderno en Barrio Norte',
+      location: 'Barrio Norte, Buenos Aires',
+      price: '$950/mes',
+      type: 'Alquiler'
+    },
+     {
+      id: 8,
+      image: '',
       title: 'Loft Moderno en Barrio Norte',
       location: 'Barrio Norte, Buenos Aires',
       price: '$950/mes',

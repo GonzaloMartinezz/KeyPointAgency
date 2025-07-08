@@ -1,18 +1,16 @@
 /* src/components/SearchBar/SearchBar.css */
 .search-bar-container {
-    background-color: var(--background-light);
-    border-radius: 8px;
+    background-color: var(--background-secondary);
+    border: none;
     box-shadow: 0 5px 15px var(--shadow-light);
-    padding: 20px;
-    margin-top: -60px; /* Superponerse al hero section */
+    padding: 35px;
+    margin-top: -80px; /* Superponerse al hero section */
     position: relative;
     z-index: 10;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 30px;
     justify-content: center;
-    max-width: 900px; /* Ancho para la barra de búsqueda */
-    width: 100%;
 }
 
 .search-input,

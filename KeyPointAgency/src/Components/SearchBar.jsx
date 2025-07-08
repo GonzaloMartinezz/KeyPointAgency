@@ -1,4 +1,3 @@
-// src/components/SearchBar/SearchBar.js
 import React from 'react';
 import '../Styles/SearchBar.css';
 
@@ -11,7 +10,6 @@ const SearchBar = () => {
         <option value="casa">Casa</option>
         <option value="departamento">Departamento</option>
         <option value="terreno">Terreno</option>
-        {/* Más opciones */}
       </select>
       <select className="search-select">
         <option value="">Estado</option>

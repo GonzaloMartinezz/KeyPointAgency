@@ -1,6 +1,7 @@
 // src/components/AboutUs/AboutUs.js
 import React from 'react';
 import '../Styles/AboutUs.css';
+import oficina from '../Images/KP12.png';
 
 const AboutUs = () => {
   return (
@@ -20,8 +21,7 @@ const AboutUs = () => {
         <button className="btn btn-primary">Conocé nuestros servicios</button>
       </div>
       <div className="about-us-image">
-        {/* Puedes añadir una imagen o ilustración aquí */}
-        <img src="https://source.unsplash.com/random/600x400/?office,realestate" alt="Oficina de Inmobiliaria" />
+        <img src={oficina} alt="Oficina de Inmobiliaria" />
       </div>
     </section>
   );
