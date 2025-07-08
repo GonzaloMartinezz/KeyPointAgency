@@ -1,0 +1,100 @@
+/* src/components/FeaturedListings/FeaturedListings.css */
+.featured-listings-section {
+    background-color: var(--background-grey);
+    text-align: center;
+    padding: 60px 0;
+}
+
+.featured-listings-section h2 {
+    margin-bottom: 10px;
+}
+
+.section-description {
+    font-size: 1.1em;
+    color: var(--text-medium);
+    margin-bottom: 40px;
+}
+
+.listings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+}
+
+.listing-card {
+    background-color: var(--background-light);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px var(--shadow-light);
+    transition: transform 0.3s ease;
+}
+
+.listing-card:hover {
+    transform: translateY(-5px);
+}
+
+.listing-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.listing-type {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.listing-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.listing-info h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.listing-location {
+    font-size: 0.9em;
+    color: var(--text-medium);
+    margin-bottom: 10px;
+}
+
+.listing-price {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+.btn-small {
+    padding: 8px 15px;
+    font-size: 0.9em;
+    border-radius: 4px;
+}
+
+.view-all-btn {
+    margin-top: 20px;
+}
+
+/* Responsive grid */
+@media (max-width: 768px) {
+    .listings-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 15px;
+    }
+}

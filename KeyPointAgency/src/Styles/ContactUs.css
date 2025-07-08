@@ -1,0 +1,112 @@
+/* src/components/ContactUs/ContactUs.css */
+.contact-us-section {
+    background-color: var(--background-grey);
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact-us-section h2 {
+    margin-bottom: 10px;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+    background-color: var(--background-light);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px var(--shadow-light);
+    padding: 40px;
+    flex-wrap: wrap; /* Para responsividad */
+}
+
+.contact-form {
+    flex: 2; /* El formulario ocupa más espacio */
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1em;
+    color: var(--text-dark);
+    resize: vertical; /* Permite redimensionar el textarea verticalmente */
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.contact-submit-btn {
+    align-self: flex-start; /* Alinea el botón a la izquierda */
+    margin-top: 10px;
+}
+
+.contact-info {
+    flex: 1; /* La información de contacto ocupa menos espacio */
+    min-width: 250px;
+    text-align: left;
+    padding: 20px;
+    border-left: 1px solid var(--border-color); /* Separador visual */
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: var(--text-medium);
+}
+
+.social-links {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    font-size: 1.5em;
+    color: var(--text-medium);
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-form-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    .contact-info {
+        border-left: none; /* Elimina la línea vertical */
+        border-top: 1px solid var(--border-color); /* Añade una línea horizontal */
+        padding-top: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .contact-submit-btn {
+        width: 100%;
+        align-self: center;
+    }
+    .social-links {
+        justify-content: center;
+    }
+}

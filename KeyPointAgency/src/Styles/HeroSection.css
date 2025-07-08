@@ -1,0 +1,58 @@
+/* src/components/HeroSection/HeroSection.css */
+.hero-section {
+    background-image: url('https://source.unsplash.com/random/1600x900/?realestate,house'); /* Imagen de fondo de ejemplo */
+    background-size: cover;
+    background-position: center;
+    color: var(--text-light);
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    position: relative; /* Para el overlay */
+}
+
+/* Overlay para hacer el texto legible sobre la imagen */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Oscurece la imagen de fondo */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative; /* Para que el contenido esté sobre el overlay */
+    z-index: 2;
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--text-light); /* Color del texto del título */
+}
+
+.hero-content p {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 80px 15px;
+    }
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+    .hero-content p {
+        font-size: 1em;
+    }
+}

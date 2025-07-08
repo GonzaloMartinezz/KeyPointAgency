@@ -1,0 +1,56 @@
+/* src/components/SearchBar/SearchBar.css */
+.search-bar-container {
+    background-color: var(--background-light);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px var(--shadow-light);
+    padding: 20px;
+    margin-top: -60px; /* Superponerse al hero section */
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    max-width: 900px; /* Ancho para la barra de búsqueda */
+    width: 100%;
+}
+
+.search-input,
+.search-select {
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1em;
+    color: var(--text-dark);
+    flex: 1; /* Permite que los inputs se expandan */
+    min-width: 180px; /* Ancho mínimo para cada campo */
+}
+
+.search-input:focus,
+.search-select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.search-btn {
+    padding: 12px 30px;
+    font-weight: 600;
+    min-width: 150px;
+}
+
+/* Responsive Search Bar */
+@media (max-width: 768px) {
+    .search-bar-container {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+        margin-top: -40px; /* Ajuste para móviles */
+    }
+    .search-input,
+    .search-select,
+    .search-btn {
+        width: 100%;
+        min-width: unset;
+    }
+}
