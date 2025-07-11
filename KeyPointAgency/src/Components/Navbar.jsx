@@ -14,7 +14,7 @@ const Navbar = () => {
         <li><a href="#contacto">Contacto</a></li>
       </ul>
       <div className="navbar-actions">
-        <button className="btn btn-outline">Login</button>
+        <button className="btn btn-primary">Login</button>
         <button className="btn btn-primary">Registrarse</button>
       </div>
     </nav>

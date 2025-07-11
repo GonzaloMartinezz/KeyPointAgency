@@ -3,13 +3,13 @@
     background-color: var(--background-secondary);
     border: none;
     box-shadow: 0 5px 15px var(--shadow-light);
-    padding: 35px;
-    margin-top: -80px; /* Superponerse al hero section */
+    padding: 50px;
+    margin-top: -170px; /* Superponerse al hero section */
     position: relative;
     z-index: 10;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
     justify-content: center;
 }
 
@@ -32,9 +32,11 @@
 }
 
 .search-btn {
-    padding: 12px 30px;
-    font-weight: 600;
-    min-width: 150px;
+    padding: 10px 30px;
+    font-weight: 800;
+    min-width: 200px;
+    position: relative;
+    cursor: pointer;
 }
 
 /* Responsive Search Bar */
