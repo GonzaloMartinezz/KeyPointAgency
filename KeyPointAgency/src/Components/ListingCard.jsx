@@ -66,7 +66,7 @@ const FeaturedListings = () => {
     },
      {
       id: 6,
-      image: '',
+      image: '../Images/KP04.jpg',
       title: 'Loft Moderno en Barrio Norte',
       location: 'Barrio Norte, Buenos Aires',
       price: '$950/mes',
@@ -74,7 +74,7 @@ const FeaturedListings = () => {
     },
      {
       id: 7,
-      image: '',
+      image: '../Images/KP05.jpg',
       title: 'Loft Moderno en Barrio Norte',
       location: 'Barrio Norte, Buenos Aires',
       price: '$950/mes',
@@ -82,7 +82,55 @@ const FeaturedListings = () => {
     },
      {
       id: 8,
-      image: '',
+      image: '../Images/KP06.jpg',
+      title: 'Loft Moderno en Barrio Norte',
+      location: 'Barrio Norte, Buenos Aires',
+      price: '$950/mes',
+      type: 'Alquiler'
+    },
+    {
+      id: 9,
+      image: '../Images/KP07.jpg',
+      title: 'Loft Moderno en Barrio Norte',
+      location: 'Barrio Norte, Buenos Aires',
+      price: '$950/mes',
+      type: 'Alquiler'
+    },
+    {
+      id: 10,
+      image: '../Images/KP09.jpg',
+      title: 'Loft Moderno en Barrio Norte',
+      location: 'Barrio Norte, Buenos Aires',
+      price: '$950/mes',
+      type: 'Alquiler'
+    },
+    {
+      id: 11,
+      image: '../Images/KP10.jpg',
+      title: 'Loft Moderno en Barrio Norte',
+      location: 'Barrio Norte, Buenos Aires',
+      price: '$950/mes',
+      type: 'Alquiler'
+    },
+    {
+      id: 12,
+      image: '../Images/KP06.jpg',
+      title: 'Loft Moderno en Barrio Norte',
+      location: 'Barrio Norte, Buenos Aires',
+      price: '$950/mes',
+      type: 'Alquiler'
+    },
+    {
+      id: 13,
+      image: '../Images/KP03.jpg',
+      title: 'Loft Moderno en Barrio Norte',
+      location: 'Barrio Norte, Buenos Aires',
+      price: '$950/mes',
+      type: 'Alquiler'
+    },
+    {
+      id: 14,
+      image: '../Images/KP05.jpg',
       title: 'Loft Moderno en Barrio Norte',
       location: 'Barrio Norte, Buenos Aires',
       price: '$950/mes',

@@ -4,7 +4,8 @@ import '../Styles/SearchBar.css';
 const SearchBar = () => {
   return (
     <div className="search-bar-container">
-      <input type="text" placeholder="Buscar por ubicación, tipo..." className="search-input" />
+     <div className='d-flex align-items-center justify-content-center gap-4'>
+       <input type="text" placeholder="Buscar por ubicación, tipo..." className="search-input" />
       <select className="search-select">
         <option value="">Tipo de Propiedad</option>
         <option value="casa">Casa</option>
@@ -16,7 +17,10 @@ const SearchBar = () => {
         <option value="venta">Venta</option>
         <option value="alquiler">Alquiler</option>
       </select>
-      <button className="btn btn-primary search-btn">Buscar</button>
+     </div>
+     <div className='d-flex justify-content-center '>
+       <button className="btn btn-primary search-btn">Buscar</button>
+     </div>
     </div>
   );
 };
