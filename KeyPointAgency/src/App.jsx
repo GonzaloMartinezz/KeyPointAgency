@@ -9,6 +9,7 @@ import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
 import './App.css'; // Estilos generales si los necesitas (puedes dejarlos simples)
 import Login from './Components/Login';
+import Register from './Components/Register';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <AboutUs />
         <ContactUs />
         <Login />
+        <br />
+        <Register />
       </main>
       <Footer />
     </div>
