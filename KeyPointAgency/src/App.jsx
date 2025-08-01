@@ -8,6 +8,7 @@ import AboutUs from './Components/AboutUs';
 import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
 import './App.css'; // Estilos generales si los necesitas (puedes dejarlos simples)
+import Login from './Components/Login';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <FeaturedListings />
         <AboutUs />
         <ContactUs />
+        <Login />
       </main>
       <Footer />
     </div>

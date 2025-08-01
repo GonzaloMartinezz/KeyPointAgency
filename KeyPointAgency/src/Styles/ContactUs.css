@@ -38,14 +38,14 @@
     border-radius: 5px;
     font-size: 1em;
     color: var(--text-dark);
-    resize: vertical; /* Permite redimensionar el textarea verticalmente */
+    resize: vertical; 
 }
 
 .form-input:focus,
 .form-textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(72, 137, 206, 0.25);
 }
 
 .contact-submit-btn {
@@ -58,7 +58,7 @@
     min-width: 250px;
     text-align: left;
     padding: 20px;
-    border-left: 1px solid var(--border-color); /* Separador visual */
+    border-left: 1px solid var(--border-color); 
 }
 
 .contact-info h3 {
