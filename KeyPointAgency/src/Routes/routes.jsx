@@ -6,10 +6,11 @@ const Approutes = () => {
   return (
 
     <Routes>
-    <Route path="/" element={<PageHome />} />
-    
+      <Route path="/" element={<PageHome />} />
+
+
     </Routes>
   )
 }
 
-export default App
+export default Approutes
